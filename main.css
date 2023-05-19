@@ -21,14 +21,60 @@
     pointer-events: none;
   }
   > .lyrics {
-    font-size: 25px;
+    font-size: 30px;
     transition: 0.4s ease;
     position: relative;
-    z-index: 999;
+    z-index: 1;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     color: whitesmoke;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
   }
+}
+
+footer {
+  position: fixed;
+  background-color: transparent;
+  padding: 11px 0px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-wrapper {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  font-size: 25px;
+  color: #666;
+  margin: 0 10px;
+  text-decoration: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.social-links a:hover:nth-child(1) {
+  font-size: 31px;
+  color: #62783a;
+  text-shadow: 0 1px 15px rgb(5, 199, 199);
+}
+.social-links a:hover:nth-child(2) {
+  font-size: 31px;
+  color: #ff4e83;
+  text-shadow: 0 1px 15px rgb(255, 94, 234);
+}
+.social-links a:hover:nth-child(3) {
+  font-size: 31px;
+  color: #7167ff;
+  text-shadow: 0 1px 15px rgb(85, 119, 255);
+}
+
+.social-links a:hover:nth-child(4) {
+  font-size: 31px;
+  color: #ff0000;
+  text-shadow: 0 1px 15px rgb(255, 126, 126);
 }
