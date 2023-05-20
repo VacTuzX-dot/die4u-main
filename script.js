@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Check if the current time is at or after 15 seconds (15000 milliseconds)
         var targetTime = 15000;
         if (currentTime >= targetTime) {
-          video.play;
+          video.autoplay;
         }
       }
 
