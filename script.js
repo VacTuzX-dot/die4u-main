@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var video = document.querySelector("video");
-  video.volume = 0.55;
+  video.volume = 0.5;
 
   var lyricElement = document.querySelector(".lyrics");
 
